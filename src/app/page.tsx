@@ -188,7 +188,7 @@ export default function QuoteGenerator() {
   };
 
   const calculateTotal = () => {
-    let total = baseRates.furnitureHire + baseRates.delivery;
+     let total = baseRates.furnitureHire + baseRates.delivery;
     total += baseRates.stagingHourly * 4;
     return total;
   };
