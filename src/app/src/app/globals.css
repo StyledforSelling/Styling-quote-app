@@ -1,0 +1,5 @@
+<antArtifact identifier="globals-css" type="application/vnd.ant.code" language="css" title="Global CSS">
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</antArtifact
