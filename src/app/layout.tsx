@@ -1,3 +1,7 @@
+
+<antArtifact identifier="updated-layout" type="application/vnd.ant.code" language="typescript" title="Updated Layout">
+import './globals.css'
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +9,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-gray-100">{children}</body>
     </html>
   )
 }
+</antArtifact>
